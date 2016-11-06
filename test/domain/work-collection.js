@@ -12,7 +12,10 @@ describe('WorkCollection', () => {
 
   describe('months', () => {
     it('returns the months of the given collection', () => {
-      expect(collection.months()).to.eql(['2016-10'])
+      expect(collection.months()).to.eql([
+        '2016-10',
+        '2016-11'
+      ])
     })
   })
 
