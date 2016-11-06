@@ -71,7 +71,7 @@ The below command shows the csv report of worktime data.
 
 This shows the report like the below:
 
-    $ wt csv worktime.yml
+    $ wt csv worktime.yml --header date,start,end,break,note
     date,start,end,break,note
     2016/10/03,10:30,19:30,1,
     2016/10/06,10:30,19:30,1,
