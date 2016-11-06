@@ -2,6 +2,8 @@
 
 > Summarize worktime.yml
 
+This tool requires ***node >= 6***
+
 # Usage
 
 Install via npm
