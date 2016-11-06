@@ -1,4 +1,4 @@
-# worktime v0.1.0
+# worktime v1.0.0
 
 > worktime.yml summarize cli
 
