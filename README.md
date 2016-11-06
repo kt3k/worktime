@@ -1,0 +1,62 @@
+# worktime v0.1.0
+
+> worktime.yml summarize cli
+
+# Usage
+
+Install via npm
+
+    npm install -g worktime
+
+The above installs `wt` command.
+
+Then prepare yaml file like the below:
+
+worktime.yml:
+
+```yml
+date: 2016-10-03
+time: 10:30 - 19:30
+break: 1
+---
+date: 2016-10-06
+time: 10:30 - 19:30
+break: 1
+---
+date: 2016-10-07
+time: 10:30 - 20:00
+break: 1
+---
+date: 2016-10-08
+time: 14:15 - 18:30
+break: 0
+```
+
+An entry of yaml represents a worktime of a day.
+
+The meaning of properties of each entry is below:
+
+- {string} date The date of the work
+- {string} time The start time and end time
+- {number} break The break time (in hours)
+
+Then hit the command:
+
+    wt summary worktime.yml
+
+This outputs the summary of monthly worktime like the below:
+
+```yaml
+2016-10:
+  month: 2016-10
+  days: 16
+  hours: 120.75
+2016-11:
+  month: 2016-11
+  days: 3
+  hours: 23.25
+```
+
+# License
+
+MIT
