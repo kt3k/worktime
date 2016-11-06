@@ -1,6 +1,6 @@
 # worktime v1.0.0
 
-> worktime.yml summarize cli
+> Summarize worktime.yml
 
 # Usage
 
