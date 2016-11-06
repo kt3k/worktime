@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "worktime": "bin/worktime",
+    "wt": "bin/worktime"
+  },
   "scripts": {
     "lint": "standard",
     "test": "mocha 'test/**/*.js'",
