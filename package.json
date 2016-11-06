@@ -13,7 +13,8 @@
   "scripts": {
     "lint": "standard",
     "test": "mocha 'test/**/*.js'",
-    "cov": "nyc --reporter=lcov npm test"
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run cov && codecov"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
     "mocha": "^3.1.2",
     "nyc": "^8.4.0",
     "standard": "^8.5.0"
