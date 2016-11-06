@@ -1,5 +1,9 @@
 # worktime v1.0.1
 
+[![CircleCI](https://circleci.com/gh/kt3k/worktime.svg?style=svg)](https://circleci.com/gh/kt3k/worktime)
+[![codecov.io](https://codecov.io/github/kt3k/worktime/coverage.svg?branch=master)](https://codecov.io/github/kt3k/worktime?branch=master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 > Summarize worktime.yml
 
 This tool requires ***node >= 6***
